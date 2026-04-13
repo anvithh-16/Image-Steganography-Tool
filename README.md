@@ -65,24 +65,6 @@ python3 decode.py --stego stego.png --out recovered.png  # for image payloads
 python3 analyze.py --cover cover.png
 python3 analyze.py --cover cover.png --stego stego.png --out bitplanes.png
 ```
-
----
-
-## ⚠️ Common Error: FileNotFoundError
-
-If you see:
-```
-FileNotFoundError: [Errno 2] No such file or directory: 'photo.png'
-```
-
-This means the image path you passed doesn't exist in your current directory. Always use an actual PNG file that is present in your folder. To check:
-
-```bash
-ls *.png
-```
-
-Then use one of those filenames as your `--cover` argument (e.g., `cover.png`).
-
 ---
 
 ## ⚙️ How It Works
