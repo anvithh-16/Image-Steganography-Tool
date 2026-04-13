@@ -7,7 +7,7 @@
 ## 📦 Requirements
 
 ```bash
-pip install numpy pillow
+pip install numpy pillow opencv-python
 ```
 
 ---
